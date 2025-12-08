@@ -61,7 +61,19 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 ## 📸 Screenshots
 
 <div align="center">
-  <p><i>Coming soon - Add screenshots of your app here</i></p>
+  
+### Dashboard & Home
+<img src="screenshots/dashboard_light.png" width="250" alt="Dashboard Light Mode"> <img src="screenshots/dashboard_dark.png" width="250" alt="Dashboard Dark Mode"> <img src="screenshots/fab_menu.png" width="250" alt="FAB Menu">
+
+### Medicine Management
+<img src="screenshots/add_medicine.png" width="250" alt="Add Medicine"> <img src="screenshots/medicine_calendar.png" width="250" alt="Medicine Calendar">
+
+### Appointment Management
+<img src="screenshots/add_appointment.png" width="250" alt="Add Appointment"> <img src="screenshots/appointments_list.png" width="250" alt="Appointments List">
+
+### Prescription Management
+<img src="screenshots/prescriptions_list.png" width="250" alt="Prescriptions List"> <img src="screenshots/prescription_details.png" width="250" alt="Prescription Details"> <img src="screenshots/prescription_pending.png" width="250" alt="Prescription Pending">
+
 </div>
 
 ## 🚀 Installation
@@ -213,8 +225,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Sabbir Mohammad**
+- GitHub: [@sabbirmohammad](https://github.com/sabbirmohammad)
+- Repository: [Doc-Remind](https://github.com/sabbirmohammad/Doc-Remind)
 
 ## 🙏 Acknowledgments
 
