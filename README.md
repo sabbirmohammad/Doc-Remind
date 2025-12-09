@@ -9,7 +9,29 @@
 
 **A comprehensive health management app for tracking medicines, appointments, and prescriptions**
 
-[Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
+[📥 Download](#-download) • [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
+
+</div>
+
+---
+
+## 📥 Download
+
+### Android
+
+| Type                         | Size  | Download                                         |
+| ---------------------------- | ----- | ------------------------------------------------ |
+| **64-bit APK** (Recommended) | 18 MB | [Download](releases/app-arm64-v8a-release.apk)   |
+| 32-bit APK                   | 16 MB | [Download](releases/app-armeabi-v7a-release.apk) |
+| Universal APK                | 51 MB | [Download](releases/app-release.apk)             |
+| Emulator/x86                 | 20 MB | [Download](releases/app-x86_64-release.apk)      |
+
+**👉 [View all releases & installation instructions →](RELEASES.md)**
+
+### iOS
+
+- Coming Soon! 🏗️ TestFlight beta and App Store release in progress
+- For now: [Build from source](#build-from-source)
 
 </div>
 
@@ -22,6 +44,7 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 ## ✨ Features
 
 ### 💊 Medicine Management
+
 - **Add & Track Medicines**: Store medicine details including name, dosage, and schedule
 - **Smart Scheduling**: Configure specific times and days of the week for each medicine
 - **Missed Doses Tracking**: Automatic tracking of missed medication doses
@@ -30,6 +53,7 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 - **Full CRUD Operations**: Add, edit, view, and delete medicines
 
 ### 📅 Appointment Management
+
 - **Doctor Appointments**: Schedule and manage appointments with doctors
 - **Appointment Details**: Store doctor name, specialty, clinic, phone, date/time, and notes
 - **Status Tracking**: Mark appointments as attended or track missed appointments
@@ -38,6 +62,7 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 - **Duplicate Detection**: Prevents scheduling duplicate appointments
 
 ### 📄 Prescription Management
+
 - **Photo Storage**: Take or upload photos of prescriptions
 - **Zoom & View**: Interactive viewer with pinch-to-zoom (0.5x-4x)
 - **Persistent Storage**: Images stored permanently in app documents
@@ -45,12 +70,14 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 - **Delete Option**: Remove outdated prescriptions easily
 
 ### 👤 User Profile
+
 - **Local Profile**: Simple profile creation without authentication
 - **Profile Photo**: Upload and display profile picture
 - **Settings**: Manage app preferences and user information
 - **Dark Mode**: Toggle between light and dark themes
 
 ### 🎨 UI/UX Features
+
 - **Material Design 3**: Modern, clean interface
 - **Intuitive Navigation**: Bottom navigation with Home, Calendar, and Prescriptions
 - **Dashboard Overview**: Quick stats for medicines, appointments, and missed items
@@ -66,12 +93,15 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 <img src="screenshots/dashboard_light.jpeg" width="250" alt="Dashboard Light Mode"> <img src="screenshots/dashboard_dark.jpeg" width="250" alt="Dashboard Dark Mode"> <img src="screenshots/fab_menu.jpeg" width="250" alt="FAB Menu">
 
 ### Medicine Management
+
 <img src="screenshots/add_medicine.jpeg" width="250" alt="Add Medicine"> <img src="screenshots/medicine_calendar.jpeg" width="250" alt="Medicine Calendar">
 
 ### Appointment Management
+
 <img src="screenshots/appointments_list.jpeg" width="250" alt="Appointments List">
 
 ### Prescription Management
+
 <img src="screenshots/prescription_list.jpeg" width="250" alt="Prescriptions List"> <img src="screenshots/prescription_details.jpeg" width="250" alt="Prescription Details">
 
 </div>
@@ -79,6 +109,7 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 ## 🚀 Installation
 
 ### Prerequisites
+
 - Flutter SDK (≥3.9.2)
 - Dart SDK (≥3.9.2)
 - Android Studio / Xcode (for mobile development)
@@ -87,22 +118,26 @@ Doc Remind is a Flutter-based mobile application designed to help users manage t
 ### Setup Steps
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/doc_remind.git
 cd doc_remind
 ```
 
 2. **Install dependencies**
+
 ```bash
 flutter pub get
 ```
 
 3. **Generate model files**
+
 ```bash
 flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
 4. **Run the app**
+
 ```bash
 flutter run
 ```
@@ -110,36 +145,45 @@ flutter run
 ### Build APK (Android)
 
 **Split APKs (Recommended - smaller size)**
+
 ```bash
 flutter build apk --release --split-per-abi
 ```
+
 Output:
+
 - `app-armeabi-v7a-release.apk` (16.8 MB) - 32-bit devices
 - `app-arm64-v8a-release.apk` (19.4 MB) - 64-bit devices (most common)
 - `app-x86_64-release.apk` (20.5 MB) - Emulators/tablets
 
 **Universal APK**
+
 ```bash
 flutter build apk --release
 ```
+
 Output: `app-release.apk` (51 MB)
 
 ## 🛠 Tech Stack
 
 ### Frontend
+
 - **Framework**: Flutter 3.9.2
 - **Language**: Dart 3.9.2
 - **UI**: Material Design 3
 
 ### State Management
+
 - **GetX** (4.6.6) - Reactive state management, routing, and dependency injection
 
 ### Local Storage
+
 - **Hive** (2.2.3) - NoSQL local database for medicines, appointments, prescriptions
 - **SharedPreferences** (2.2.2) - Key-value storage for user data
 - **Path Provider** (2.1.1) - Permanent file storage for images
 
 ### Features & Utilities
+
 - **Image Picker** (1.0.4) - Camera and gallery access
 - **Flutter Local Notifications** (17.0.0) - Push notifications
 - **Timezone** (0.9.2) - Timezone management for notifications
@@ -148,6 +192,7 @@ Output: `app-release.apk` (51 MB)
 - **Font Awesome Flutter** (10.7.0) - Icon library
 
 ### Development Tools
+
 - **Build Runner** (2.4.6) - Code generation
 - **Hive Generator** (2.0.0) - Model generation
 
@@ -189,21 +234,25 @@ lib/
 ## 🔑 Key Features Implementation
 
 ### Data Persistence
+
 - Images stored in app documents directory (survives app restarts)
 - Hive boxes for structured data (medicines, appointments, prescriptions)
 - SharedPreferences for user profile data
 
 ### Duplicate Prevention
+
 - **Medicines**: Case-insensitive name matching
 - **Appointments**: Doctor name + date + time matching
 - User-friendly error messages on duplicate detection
 
 ### Notifications
+
 - Scheduled local notifications for medicines
 - Appointment reminders before scheduled time
 - Timezone-aware scheduling
 
 ### Image Management
+
 - Profile photos stored in `/profile` directory
 - Prescription photos in `/prescriptions` directory
 - Automatic cleanup of old images on update
@@ -226,6 +275,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Sabbir Mohammad**
+
 - GitHub: [@sabbirmohammad](https://github.com/sabbirmohammad)
 - Repository: [Doc-Remind](https://github.com/sabbirmohammad/Doc-Remind)
 
