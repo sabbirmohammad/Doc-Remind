@@ -9,7 +9,7 @@
 
 **A comprehensive health management app for tracking medicines, appointments, and prescriptions**
 
-[📥 Download](#-download) • [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
+[📥 Download](#-download) • [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Changelog](#changelog) • [Contributing](#-contributing)
 
 </div>
 
@@ -26,7 +26,7 @@
 | Universal APK                | 51 MB | [Download](releases/app-release.apk)             |
 | Emulator/x86                 | 20 MB | [Download](releases/app-x86_64-release.apk)      |
 
-**👉 [View all releases & installation instructions →](RELEASES.md)**
+**👉 [View all releases & installation instructions →](RELEASES.md) | [Version History →](CHANGELOG.md)**
 
 ### iOS
 
