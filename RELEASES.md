@@ -6,10 +6,10 @@
 
 | APK Type        | Architecture | Size  | Device Type                          | Download                                         |
 | --------------- | ------------ | ----- | ------------------------------------ | ------------------------------------------------ |
-| **Recommended** | arm64-v8a    | 18 MB | 64-bit phones (99% of modern phones) | [Download](releases/app-arm64-v8a-release.apk)   |
-| 32-bit Support  | armeabi-v7a  | 16 MB | Older 32-bit phones                  | [Download](releases/app-armeabi-v7a-release.apk) |
-| Emulator/Tablet | x86_64       | 20 MB | Android emulator, tablets            | [Download](releases/app-x86_64-release.apk)      |
-| Universal APK   | Universal    | 51 MB | All Android devices                  | [Download](releases/app-release.apk)             |
+| **Recommended** | arm64-v8a    | 18 MB | 64-bit phones (99% of modern phones) | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-arm64-v8a-release.apk)   |
+| 32-bit Support  | armeabi-v7a  | 16 MB | Older 32-bit phones                  | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-armeabi-v7a-release.apk) |
+| Emulator/Tablet | x86_64       | 20 MB | Android emulator, tablets            | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-x86_64-release.apk)      |
+| Universal APK   | Universal    | 51 MB | All Android devices                  | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-release.apk)             |
 
 ### How to Install
 

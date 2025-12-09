@@ -21,10 +21,10 @@
 
 | Type                         | Size  | Download                                         |
 | ---------------------------- | ----- | ------------------------------------------------ |
-| **64-bit APK** (Recommended) | 18 MB | [Download](releases/app-arm64-v8a-release.apk)   |
-| 32-bit APK                   | 16 MB | [Download](releases/app-armeabi-v7a-release.apk) |
-| Universal APK                | 51 MB | [Download](releases/app-release.apk)             |
-| Emulator/x86                 | 20 MB | [Download](releases/app-x86_64-release.apk)      |
+| **64-bit APK** (Recommended) | 18 MB | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-arm64-v8a-release.apk)   |
+| 32-bit APK                   | 16 MB | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-armeabi-v7a-release.apk) |
+| Universal APK                | 51 MB | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-release.apk)             |
+| Emulator/x86                 | 20 MB | [Download](https://github.com/sabbirmohammad/Doc-Remind/raw/main/releases/app-x86_64-release.apk)      |
 
 **👉 [View all releases & installation instructions →](RELEASES.md) | [Version History →](CHANGELOG.md)**
 
